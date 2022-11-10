@@ -5,5 +5,34 @@
 }
 
 .BakeryItem {
+  background-color: lightgray;
+  width: 60rem;
+  justify-content: center;
+
+}
+
+
+.BakeryItem{
+    width: 30rem;
+    background-color: lightgray;
+    margin: 2rem;
+    border-radius: 2rem;
+}
+.BakeryImage{
+    width: 30rem;
+    border-radius: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+      width: 30rem;
+
+    }
+  }
   
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
 }
